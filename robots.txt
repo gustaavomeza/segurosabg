@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:
+User-agent: gsa-crawler
+Disallow: /system/
+Disallow: /MCOMDefault/
+Disallow: /WPSAssets/
+Disallow: /navimages/
+Disallow: /*.css$
+Disallow: /*.js$

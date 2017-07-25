@@ -1,0 +1,20 @@
+
+@font-face {
+font-family: 'Champagne';
+src: url('../fonts/Champagne.eot');
+src: url('../fonts/Champagne.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Champagne.woff') format('woff'),
+url('../fonts/Champagne.ttf') format('truetype'),
+url('../fonts/Champagne.svg#futura_bk_btbook') format('svg');
+}
+
+
+@font-face {
+font-family: 'ChampagneBLOD';
+src: url('../fonts/ChampagneBLOD.eot');
+src: url('../fonts/ChampagneBLOD.eot?#iefix') format('embedded-opentype'),
+url('../fonts/ChampagneBLOD.woff') format('woff'),
+url('../fonts/ChampagneBLOD.ttf') format('truetype'),
+url('../fonts/ChampagneBLOD.svg#futura_bk_btbook') format('svg');
+}
+

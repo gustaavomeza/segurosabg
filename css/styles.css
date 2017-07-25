@@ -1,0 +1,947 @@
+
+
+body {
+  background: #000000;
+}
+
+html, body, * {
+  font-family: "Champagne";
+}
+
+
+.img-adaptive {
+    max-width: 100%;
+}
+
+.textITALIC {
+  font-style: italic;
+}
+
+b {
+  font-weight: 500;
+  font-family: "ChampagneBLOD";
+}
+
+.flipH { 
+  font-family: 'ChampagneBLOD';
+  float: left;
+  -moz-transform: scaleX(-1); 
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); 
+  word-wrap: break-word; 
+  overflow: hidden; 
+  text-shadow: -7px 3px 10px rgba(0,0,0,0.5);
+  padding-left: 10px;
+  padding-bottom: 10px;
+} 
+
+.toma50ALTO {
+	height: 50%;
+}
+
+.toma100ALTO {
+	height: 100%;
+}
+
+.toma50ALTOservis {
+	height: calc(50% - 7.5px);
+}
+
+.no-margin {
+    margin: 0px !important;
+}
+
+.btn-masINFO {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-sombra {
+  -webkit-box-shadow: 16px 13px 23px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 16px 13px 23px 1px rgba(0,0,0,0.75);
+  box-shadow: 16px 13px 23px 1px rgba(0,0,0,0.75);
+}
+
+.text-sombra {
+  text-shadow: 7px 3px 10px rgba(0,0,0,0.5);
+}
+
+
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.colorBLANCO {
+  color: #FFFFFF;
+}
+
+.colorROJO {
+  color: #FF0000;
+}
+
+.colorNARANJA {
+  color: #FF8400;
+}
+
+
+.colorAZULREY {
+  color: #000F69;
+}
+
+.colorMARINO {
+  color: #4803CF;
+}
+
+.colorVERDE {
+  color: #78A249;
+}
+
+.colorMORADO {
+  color: #AA248C;
+}
+
+.colorCIELO {
+  color: #5BBEDD;
+}
+
+
+
+
+
+.serviciosINICIO {
+  height: 800px;
+}
+
+
+.textBLOD {
+  font-weight: 700;
+}
+
+
+
+.myNAVmobile{
+  display: none;
+  background: #FFFFFF;
+  padding: 10px 0px;
+
+}
+
+.NAVmobileINFO{
+    display: none;
+    padding: 0px 20px;
+    position: absolute;
+    top: 88px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    background : rgba(255, 255, 255, 0.6);
+}
+
+.NAVmobileINFO > center > a{
+  text-decoration: none;
+}
+
+
+
+
+.imgSOMOS{
+  width: 130px;
+  position: absolute;
+  top: -40px;
+  left: calc(100% - 60%);
+  z-index: 100;
+  border: 3px solid #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.imgSOMOS:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+.cajaSOMOS {
+  padding-top: 100px;
+}
+
+
+
+
+
+.BG-infoQUIENES{
+    padding: 30px;
+    position: absolute;
+    top: 200px;
+    left: calc(100% - 98%);
+    width: calc(100% - 62%);
+    z-index: 100;
+    background : rgba(54, 160, 218, 0.6);
+    border: 3px solid #FFFFFF;
+}
+
+
+.BG1 {
+  height: 100%;
+  background: url(../img/servicios/bg1.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition-duration: 0.3s;
+}
+.BG1:hover {
+    background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.5) 0%,rgba(25, 25, 25, 0.5) 100%), url(../img/servicios/bg1.jpg);
+    background-size: cover;
+}
+.BG1-info {
+    padding: 10px;
+    position: absolute;
+    top: 590px;
+    left: calc(100% - 95%);
+    width: calc(100% - 10%);
+    z-index: 100;
+    background : rgba(35, 100, 135, 0.6);
+    border: 3px solid #FFFFFF;
+
+}
+.hoverBG1 {
+  transform: scale(1.1);
+  background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.5) 0%,rgba(25, 25, 25, 0.5) 100%), url(../img/servicios/bg1.jpg);
+  background-size: cover;
+}
+
+
+
+
+.copyright {
+    padding: 1em 0;
+    background: #000000;
+    text-align: center;
+}
+.copyright p {
+    margin: 0;
+    color: #8a8a8a;
+    font-size: .9em;
+}
+.copyright p a {
+    color: #8a8a8a;
+    text-decoration: none;
+}
+
+.copyright p a:hover{
+    color: #FFFFFF;
+}
+
+
+
+
+.BG2 {
+  height: 100%;
+  background: url(../img/servicios/bg2.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition-duration: 0.3s;
+}
+.BG2:hover {
+    background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.5) 0%,rgba(25, 25, 25, 0.5) 100%), url(../img/servicios/bg2.jpg);
+    background-size: cover;
+}
+.BG2-info {
+    padding: 10px;
+    position: absolute;
+    top: 590px;
+    left: calc(100% - 92%);
+    width: calc(100% - 16%);
+    z-index: 100;
+    background : rgba(164, 81, 0, 0.6);
+    border: 3px solid #FFFFFF;
+}
+.hoverBG2 {
+  transform: scale(1.1);
+  background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.5) 0%,rgba(25, 25, 25, 0.5) 100%), url(../img/servicios/bg2.jpg);
+  background-size: cover;
+}
+
+
+
+
+.BG6 {
+  height: 100%;
+  background: url(../img/servicios/bg6.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition-duration: 0.3s;
+}
+.BG6:hover {
+    background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.5) 0%,rgba(25, 25, 25, 0.5) 100%), url(../img/servicios/bg6.jpg);
+    background-size: cover;
+}
+.BG6-info {
+    padding: 10px;
+    position: absolute;
+    top: 110px;
+    left: calc(100% - 45%);
+    width: calc(100% - 60%);
+    z-index: 100;
+    background : rgba(0, 83, 164, 0.6);
+    border: 3px solid #FFFFFF;
+}
+.hoverBG6 {
+  transform: scale(1.1);
+  background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.5) 0%,rgba(25, 25, 25, 0.5) 100%), url(../img/servicios/bg6.jpg);
+  background-size: cover;
+}
+
+
+
+.primerCONTENT {
+  padding-top: 96px;
+  background: #FFFFFF;
+}
+
+
+
+
+.BG4 {
+  height: 100%;
+  background: url(../img/servicios/bg4.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition-duration: 0.3s;
+}
+.BG4:hover {
+    background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.5) 0%,rgba(25, 25, 25, 0.5) 100%), url(../img/servicios/bg4.jpg);
+    background-size: cover;
+}
+.BG4-info {
+    padding: 10px;
+    position: absolute;
+    top: 110px;
+    left: calc(100% - 95%);
+    width: calc(100% - 55%);
+    z-index: 100;
+    background : rgba(60, 61, 117, 0.6);
+    border: 3px solid #FFFFFF;
+
+}
+.hoverBG4 {
+  transform: scale(1.1);
+  background-image: linear-gradient(to bottom, rgba(25, 25, 25, 0.5) 0%,rgba(25, 25, 25, 0.5) 100%), url(../img/servicios/bg4.jpg);
+  background-size: cover;
+}
+
+
+.saltoSOMOS {
+  display: none;
+}
+
+
+
+
+.MIservFONDO {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ESCALEfondo {
+  padding: 30px;
+}
+
+
+.MIservFONDO:hover .ESCALEfondo {
+    transform: scale(1.1);
+}
+
+
+
+.botonesNAV {
+  max-width: 60px;
+  transition:all 0.3s ease;
+}
+
+
+.botonesNAV:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
+
+
+
+.fondoSOMOS {
+    height: 550px;
+    background: url(../img/fondos/myfondo01.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.textGRANDE {
+  font-size: 100px;
+  line-height: 85px;
+}
+
+.textGRANDE b{
+  font-weight: 500;
+  font-family: "ChampagneBLOD";
+}
+
+
+
+.myLOGO {
+  margin-left: 25px;
+  max-width: 90px;
+}
+
+
+.myMENU {
+  max-width: 50px;
+  cursor: pointer;
+}
+
+
+.listado {
+  list-style: none;
+  margin-right: 25px;
+  margin-bottom: 0px;
+}
+
+.listado li{
+  display: inline-block;
+  margin: 0px 10px;
+  vertical-align: middle;
+}
+
+
+.myNAV {
+  background: #FFFFFF;
+  padding: 10px 0px;
+}
+
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+
+
+
+.btn-azul {
+  border: 0px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #23388C;
+}
+.btn-azul:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #3D53AA;
+}
+
+.btn-rojo {
+  border: 0px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #FF0000;
+}
+.btn-rojo:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #FE5656;
+}
+
+.btn-naranja {
+  border: 0px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #FF8400;
+}
+.btn-naranja:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #FF9600;
+}
+
+
+.btn-azulclaro {
+  border: 0px;
+  text-decoration: none;
+  color: #000000;
+  background: #1195D8;
+}
+.btn-azulclaro:hover {
+  text-decoration: none;
+  color: #000000;
+  background: #43AEE4;
+}
+
+
+.btn-verde {
+  border: 0px;
+  text-decoration: none;
+  color: #000000;
+  background: #78A249;
+}
+.btn-verde:hover {
+  text-decoration: none;
+  color: #000000;
+  background: #9ECF67;
+}
+
+
+.btn-morado {
+  border: 0px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #AA248C;
+}
+.btn-morado:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #CD49AF;
+}
+
+
+.btn-cielo {
+  border: 0px;
+  text-decoration: none;
+  color: #000000;
+  background: #5BBEDD;
+}
+.btn-cielo:hover {
+  text-decoration: none;
+  color: #000000;
+  background: #7FD7F2;
+}
+
+
+
+
+.myct{
+  width: 1500px;
+}
+
+
+
+
+
+.col-sm-6 .slider-selection {
+    background: #FF0060 !important;
+}
+
+
+.col-sm-6 .slider-track-high {
+  background: #D7D7D7 !important;
+}
+
+
+.col-sm-6 .slider-handle {
+  background: #22388C !important;
+  cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 1600px) {
+
+  .myct{
+    width: 1200px;
+  }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1399px) {
+
+
+  .myct{
+    width: 1000px;
+  }
+
+
+  .BG-infoQUIENES{
+      width: calc(100% - 52%);
+  }
+  
+
+
+
+  .BG2-info {
+      padding: 10px;
+      position: absolute;
+      top: 555px;
+      left: calc(100% - 92%);
+      width: calc(100% - 16%);
+      z-index: 100;
+      background : rgba(164, 81, 0, 0.6);
+      border: 3px solid #FFFFFF;
+  }
+    
+
+  .BG6-info {
+      padding: 10px;
+      position: absolute;
+      top: 100px;
+      left: calc(100% - 55%);
+      width: calc(100% - 50%);
+      z-index: 100;
+      background : rgba(0, 83, 164, 0.6);
+      border: 3px solid #FFFFFF;
+  }
+  
+
+  .BG4-info {
+      padding: 10px;
+      position: absolute;
+      top: 70px;
+      left: calc(100% - 95%);
+      width: calc(100% - 55%);
+      z-index: 100;
+      background : rgba(60, 61, 117, 0.6);
+      border: 3px solid #FFFFFF;
+  
+  }
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1180px) {
+
+
+
+  .myct{
+    width: 800px;
+  }
+
+
+
+  .BG1-info {
+      padding: 10px;
+      position: absolute;
+      top: 500px;
+      left: calc(100% - 95%);
+      width: calc(100% - 10%);
+      z-index: 100;
+      background : rgba(35, 100, 135, 0.6);
+      border: 3px solid #FFFFFF;
+  
+  }
+
+
+  .BG2-info {
+      padding: 10px;
+      position: absolute;
+      top: 500px;
+      left: calc(100% - 88%);
+      width: calc(100% - 25%);
+      z-index: 100;
+      background : rgba(164, 81, 0, 0.6);
+      border: 3px solid #FFFFFF;
+  }
+    
+
+  .BG6-info {
+      padding: 10px;
+      position: absolute;
+      top: 100px;
+      left: calc(107% - 100%);
+      width: calc(100% - 40px);
+      z-index: 100;
+      background : rgba(0, 83, 164, 0.6);
+      border: 3px solid #FFFFFF;
+  }
+  
+
+  .BG4-info {
+      padding: 10px;
+      position: absolute;
+      top: 70px;
+      left: calc(100% - 92%);
+      width: calc(100% - 16%);
+      z-index: 100;
+      background : rgba(60, 61, 117, 0.6);
+      border: 3px solid #FFFFFF;
+  
+  }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+
+
+
+  .BG-infoQUIENES{
+    padding: 10px;
+    position: absolute;
+    top: 320px;
+    left: calc(100% - 98%);
+    width: calc(100% - 5%);
+    z-index: 100;
+    background : rgba(54, 160, 218, 0.6);
+    border: 3px solid #FFFFFF;
+  }
+  
+
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+
+
+
+  .myct{
+    width: 700px;
+  }
+
+
+  .primerCONTENT {
+    padding-top: 96px;
+  }
+
+
+
+  .myLOGO {
+      margin-left: 25px;
+      max-width: 90px;
+  }
+
+  .botonesNAV {
+      max-width: 60px;
+  }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 780px) {
+
+
+  .fondotopAUTO {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+  }
+  
+
+  .textGRANDE {
+    font-size: 50px;
+    line-height: 45px;
+  }
+
+
+
+
+  .myMENU {
+    margin: 15px 0px;
+  }
+
+
+  .myct{
+    width: 100%;
+  }
+
+
+  .fondoSOMOS {
+      height: 600px;
+  }
+
+  .myNAV {
+    display: none;
+  }
+
+  .myNAVmobile {
+    display: block;
+  }
+
+
+  .primerCONTENT {
+    padding-top: 87.5px;
+  }
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+  .saltoSOMOS {
+    display: block;
+  }
+
+
+  .BG1-info {
+      padding: 10px;
+      position: absolute;
+      top: 590px;
+      left: calc(100% - 95%);
+      width: calc(100% - 10%);
+      z-index: 100;
+      background : rgba(35, 100, 135, 0.6);
+      border: 3px solid #FFFFFF;
+  
+  }
+
+
+  .BG2-info {
+      padding: 10px;
+      position: absolute;
+      top: 590px;
+      left: calc(100% - 92%);
+      width: calc(100% - 16%);
+      z-index: 100;
+      background : rgba(164, 81, 0, 0.6);
+      border: 3px solid #FFFFFF;
+  }
+
+
+
+  .BG6-info {
+      padding: 10px;
+      position: absolute;
+      top: 110px;
+      left: calc(100% - 45%);
+      width: calc(100% - 60%);
+      z-index: 100;
+      background : rgba(0, 83, 164, 0.6);
+      border: 3px solid #FFFFFF;
+  }
+  .BG4-info {
+      padding: 10px;
+      position: absolute;
+      top: 110px;
+      left: calc(100% - 95%);
+      width: calc(100% - 55%);
+      z-index: 100;
+      background : rgba(60, 61, 117, 0.6);
+      border: 3px solid #FFFFFF;
+  }
+  
+
+  .BG2movile {
+    padding: 0px;
+    margin: 15px 0px;
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 580px) {
+
+
+
+
+  .fondoSOMOS {
+      height: 700px;
+  }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 485px) {
+
+
+
+  .BG1-info {
+    top: 490px;
+  }
+
+
+  .BG2-info {
+      top: 470px;
+  }
+
+
+
+  .BG6-info {
+
+      top: 110px;
+      left: calc(100% - 90%);
+      width: calc(100% - 20%);
+  }
+
+
+
+
+  .BG4-info {
+      top: 68px;
+      left: calc(100% - 90%);
+      width: calc(100% - 20%);
+  }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 390px) {
+
+
+  .fondoSOMOS {
+      height: 900px;
+  }
+
+
+}
